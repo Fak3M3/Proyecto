@@ -65,7 +65,7 @@ a:hover{
     background-color: #1e3932;
     color: white;
     text-align: center;
-
+    margin-bottom: 30px;
 }
 
 .banner h1{
@@ -87,4 +87,57 @@ a:hover{
 .banner div{
     padding: 0 60px;
     align-content: center;
+}
+
+#caffe-cortado{
+    background-color: rgb(202 227 144);
+    color: #1e3932;
+}
+
+#tostado{
+    background-color: rgb(246 228 174);
+    color: #204285;
+}
+
+/* ESTILOS DEL POSITION */
+
+.box{
+    top: 50px;
+    bottom: 0;
+    right: 0;
+    left: 20px;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+    background-color: chocolate;
+    color: beige;
+}
+
+#RELATIVE{
+    background-color: #1e3932;
+    position: relative;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    left: 150px;
+}
+
+#absolute{
+    position: absolute;
+    background-color: #204285;
+}
+
+#fixed{
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    background-color: cadetblue;
+}
+
+#sticky{
+    position: sticky;
+    background-color: aqua;
+    top 50 px ;
 }
