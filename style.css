@@ -52,7 +52,7 @@ section img{
     color: #212121;
 }
 
-a:hover{
+.navB a:hover{
     border-bottom: 6px solid #00754a;
     color: #00754a;
     padding-bottom: 25px;
@@ -66,8 +66,6 @@ a:hover{
     color: white;
     text-align: center;
     margin-bottom: 30px;
-    margin-left: 20px;
-    margin-top: 20px;
 }
 
 .banner h1{
@@ -142,4 +140,70 @@ a:hover{
     position: sticky;
     background-color: aqua;
     top 50 px ;
+}
+
+ul{
+    list-style: none;
+    padding: none;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0;
+    color: rgb(32, 32, 32);
+    text-align: center;
+    border-top: 1px solid slategray;
+}
+
+.footer_links{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    gap: 50px;
+    
+
+
+}
+
+.footer_links .socialll{
+    line-height: 50px;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.social{
+    display: flex;
+    /* The `gap: 15px;` property is used to set the spacing between flex items in a flex container. In
+    this case, it specifies a 15px gap between the items within the `.social` class, which is a flex
+    container. This property helps in creating consistent spacing between the social media icons or
+    links within the flex container. */
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid slategray;
+}
+
+.social a{
+    text-decoration: none;
+    width: 50px;
+    background-color: aliceblue;
+    height: 50px;   
+}
+
+#face{
+    background-image: url(img/face.png);
+    background-color: transparent;
+    background-size: cover;
+
 }
